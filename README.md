@@ -1,5 +1,8 @@
 # TurtleBot4 Setup & Run Guide
 
+Integration of the results from Practical Work 1 - 3. Setup & Configuration, Map Generation, and
+Navigation — into a single autonomous delivery robot system.
+
 This guide explains how to set up your workspace, build the project, and run TurtleBot4 with navigation, localization, RViz visualization, and custom packages.
 
 ---
