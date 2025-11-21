@@ -79,7 +79,7 @@ source install/setup.bash
 Run localization with your map:
 
 ```bash
-ros2 launch pose_nav_turtle localization.launch.py map:=src/pose_nav_turtle/maps/map_uts_kel1.yaml
+ros2 launch nav_kel4b localization.launch.py map:=src/nav_kel4b/maps/kel4b.yaml
 ```
 
 In RViz:
@@ -106,7 +106,7 @@ source install/setup.bash
 Launch your navigation node:
 
 ```bash
-ros2 launch pose_nav_turtle run_nav.launch.py
+ros2 launch nav_kel4b run_nav.launch.py
 ```
 
 Then test navigation using **Nav2 Goal** in RViz.
@@ -131,7 +131,7 @@ source install/setup.bash
 Run your node:
 
 ```bash
-ros2 run pose_nav_turtle pose_nav_turtle
+ros2 run nav_kel4b nav_kel4b
 ```
 
 ---
